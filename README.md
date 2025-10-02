@@ -20,6 +20,7 @@ Implement the build pipeline using the classic editor
 ## Pipeline code used in the demo
 
 ``` YAML
+
 trigger: 
 - main
 
@@ -60,9 +61,9 @@ stages:
     - task: AzureRmWebAppDeployment@4
       inputs:
         ConnectionType: 'AzureRM'
-        azureSubscription: 'Tech Tutorials With Piyush (9e9c27ce-e0c8-4171-a368-ad16977ec849)'
+        azureSubscription: 'Azure subscription 1(79cacc4c-2a64-46f3-a90f-56e5c46961cc)'
         appType: 'webAppLinux'
-        WebAppName: 'TechTutorialsWithPiyush'
+        WebAppName: 'Youtubeapp'
         packageForLinux: '$(System.ArtifactsDirectory)/drop'
         RuntimeStack: 'STATICSITE|1.0'
 ```
