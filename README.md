@@ -4,14 +4,13 @@
 - Run the below commands to download the application code
 
 ```
-  mkdir day4_youtube_clone; cd day4_youtube_clone
   git init
   git clone https://github.com/piyushsachdeva/Youtube_Clone
 ```
 - Create a project in Azure DevOps and push the code by running the below commands on VSCode:
 
 ```
-git remote add origin $YOURAZUREREPO
+git remote add origin
 git push -u origin all
 Note: Make sure to update your Azure repo in the above command
 ```
