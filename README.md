@@ -1,4 +1,4 @@
-# Azure-DevOps-Build-Pipeline---Build-and-Deploy-a-YouTube-Clone
+# Azure-DevOps-CI/CD-Deploy-YouTube-Clone
 ## Steps to set the infrastructure
 - Login to VSCode or any other IDE of your choice
 - Run the below commands to download the application code
